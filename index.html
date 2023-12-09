@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div id="sidebar">
+        <a href="a" onclick="classSidebar()">Close</a>
+        <div id="selectedItem"> Selected Item: </div>
+        <div id="totalDisplay">Total: $0</div>
+    </div>
+    <h1>Food Menu</h1>
+    <div class="container">
+        <div class="card">
+            <img src="https://cdn3.foodviva.com/static-content/food-images/snacks-recipes/bread-pakora/bread-pakora.jpg" class="img" alt="Bread Pakora">
+            <h2 id="name1">Bread Pakora</h2>
+            <h2 class="price">$3.99</h2>
+            <button onclick="openSidebar()">Add to Cart</button>
+        </div>
+        <div class="card">
+            <img src="https://www.foodandwine.com/thmb/DI29Houjc_ccAtFKly0BbVsusHc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/crispy-comte-cheesburgers-FT-RECIPE0921-6166c6552b7148e8a8561f7765ddf20b.jpg" class="img" alt="">
+            <h2 id="name2">Burger</h2>
+            <h2 class="price">$12</h2>
+            <button onclick="openSidebar()">Add to Cart</button>
+        </div>
+        <div class="card">
+            <img src="https://www.biggerbolderbaking.com/wp-content/uploads/2021/02/New-York-Style-Pizza-Thumbnail1-scaled.jpg" class="img" alt="pizza">
+            <h2 id="name3">Pizza</h2>
+            <h2 class="price">$12</h2>
+            <button onclick="openSidebar()">Add to Cart</button>
+        </div>
+        <div class="card">
+            <img src="https://static.toiimg.com/thumb/60275824.cms?width=1200&height=900" class="img" alt="">
+            <h2 id="name4">Momos</h2>
+            <h2 class="price">$5</h2>
+            <button onclick="openSidebar()">Add to Cart</button>
+        </div>
+        <div class="card">
+            <img src="https://weekendatthecottage.com/wp-content/uploads/2019/08/BestHotDogRecipes1.jpeg" class="img" alt="">
+            <h2 id="name5">Hot Dog</h2>
+            <h2 class="price">$9.99</h2>
+            <button onclick="openSidebar()">Add to Cart</button>
+        </div>
+        <div class="card">
+            <img src="https://www.foodandwine.com/thmb/JMrJBrYh3fxDRgkV24_8dZH_zpQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/FAW-recipes-crispy-buttermilk-fried-chicken-hero-04-3a32f9a4a1984ecab79fb28e93d4bc00.jpg" class="img" alt="">
+            <h2 id="name5">Chicken</h2>
+            <h2 class="price">$9.22</h2>
+            <button onclick="openSidebar()">Add to Cart</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
